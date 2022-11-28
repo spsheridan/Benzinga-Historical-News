@@ -23,4 +23,4 @@ This program was not very challenging, however the limited batches did require s
 N/A
 
 ## Potential Advancements
-Overall this program would be significantly more useful if Benzinga did not limit the API calls to only a certain amount of news per batch. The most necesary advancement for this program would be to find a better source from which to pull. 
+Overall this program would be significantly more useful if Benzinga did not limit the API calls to only a certain amount of news per batch. The most necesary advancement for this program would be to find a better source from which to pull for historical news. 
