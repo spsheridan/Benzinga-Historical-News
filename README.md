@@ -10,6 +10,9 @@ This program is relatively simple, the process is visualized below:
 
 The program makes a connection to the Benzinga API. Once the request is made (only a limited number of news events can be pulled at once), the raw data is split up and added to the historical data CSV. After that news has been saved, the programs moves backwards in time for the next batch of news articles continuously until stopped. 
 
+A sample of the output CSV is below:
+![Screen Shot 2022-11-27 at 10 16 29 PM](https://user-images.githubusercontent.com/118930217/204199754-692a5d56-1fa5-457a-93e0-5eb86a55bd2c.jpg)
+
 ## Results Analysis
 While working on NLP models or backtesting categories of news, it is useful to have large databases of news headlines, bodies, and events from which to pull. Our old database only had the ticker, datetime, and headline, and so this program created a better news database by saving more information. Ultimately the information saved helped to provide training data for NLP models, and backtesting examples on which to test. 
 
