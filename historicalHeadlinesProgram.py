@@ -50,7 +50,7 @@ with open('historical_headlines_benzinga.csv', 'a', newline = '', encoding = "ut
     while unixTime < 1654660772:
         start_time=time.time()
 
-        get_url = f"https://api.benzinga.com/api/v2/news?pageSize=10000&displayOutput=full&publishedSince={unixTime}&sort=created%3Aasc&token=20aaada9ceb74fa4aff1429185f1b37d"
+        get_url = f"https://api.benzinga.com/api/v2/news?pageSize=10000&displayOutput=full&publishedSince={unixTime}&sort=created%3Aasc&token=**************"
 
         response = requests.get(get_url, headers=my_headers)
 
